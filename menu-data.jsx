@@ -45,9 +45,9 @@ const MENU_ITEMS = [
   { id:'chn-alm',      cat:'chinos', name:'Pollo con Almendras',     price:24000, desc:'Pollo, almendras, vino blanco, miel, soja, mix de verduras, arroz.' },
 
   // Dumplings
-  { id:'ent-rol',      cat:'entrantes', name:'Rollitos Primavera x4', price:8500, desc:'Masa rellena de mix de vegetales, jengibre y salsa de soja.', veg:true },
-  { id:'ent-wan',      cat:'entrantes', name:'Wantanes de Pollo x4',  price:8500, desc:'Masa rellena de pollo, jengibre, verdeo y salsa de soja.' },
-  { id:'ent-gyo',      cat:'entrantes', name:'Gyosas x4',             price:8500, desc:'Masa frita rellena de cerdo sazonado.' },
+  { id:'ent-rol',      cat:'entrantes', name:'Rollitos Primavera x4', price:9500, desc:'Masa rellena de mix de vegetales, jengibre y salsa de soja.', veg:true },
+  { id:'ent-wan',      cat:'entrantes', name:'Wantanes de Pollo x4',  price:9500, desc:'Masa rellena de pollo, jengibre, verdeo y salsa de soja.' },
+  { id:'ent-gyo',      cat:'entrantes', name:'Gyosas x4',             price:9500, desc:'Masa frita rellena de cerdo sazonado.' },
   { id:'nv-siu',       cat:'entrantes', name:'Siu Kao x4',         price:9500,  desc:'Pasta rellena y frita con langostinos, brotes de soja, mix de vegetales y salsa hoisin.' },
 
   // Platos Peruanos
