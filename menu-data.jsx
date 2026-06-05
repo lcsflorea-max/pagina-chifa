@@ -21,27 +21,27 @@ const MENU_ITEMS = [
   // Chaufa
   { id:'chf-pollo',    cat:'chaufa', name:'Arroz Chaufa de Pollo',         price:19500, desc:'Arroz, salsa de soja, aceite de sésamo, verdeo, huevo batido, pollo.' },
   { id:'chf-cerdo',    cat:'chaufa', name:'Arroz Chaufa de Cerdo Asado',   price:19500, desc:'Arroz, salsa de soja, aceite de sésamo, verdeo, huevo batido, cerdo asado.' },
-  { id:'chf-lomo',     cat:'chaufa', name:'Arroz Chaufa de Lomo Veteado',  price:22500, desc:'Arroz, salsa de soja, aceite de sésamo, verdeo, huevo batido, dados de lomo veteado.' },
+  { id:'chf-lomo',     cat:'chaufa', name:'Arroz Chaufa de Lomo Veteado',  price:24500, desc:'Arroz, salsa de soja, aceite de sésamo, verdeo, huevo batido, dados de lomo veteado.' },
   { id:'chf-lang',     cat:'chaufa', name:'Arroz Chaufa de Langostinos',   price:28500, desc:'Arroz, salsa de soja, aceite de sésamo, verdeo, huevo, langostino, salsa de ostión.' },
   { id:'chf-mar',      cat:'chaufa', name:'Arroz Chaufa de Mariscos',      price:28500, desc:'Arroz, soja, sésamo, verdeo, huevo, mix de mariscos, salsa de ostión.' },
-  { id:'chf-esp',      cat:'chaufa', name:'Arroz Chaufa Especial',         price:25500, desc:'Arroz, soja, sésamo, verdeo, huevo, pollo, langostino, cerdo, carne.', tag:'Más pedido' },
+  { id:'chf-esp',      cat:'chaufa', name:'Arroz Chaufa Especial',         price:27000, desc:'Arroz, soja, sésamo, verdeo, huevo, pollo, langostino, cerdo, carne.', tag:'Más pedido' },
   { id:'chf-veg',      cat:'chaufa', name:'Arroz Chaufa Vegetariano',      price:17500, desc:'Arroz, soja, sésamo, verdeo, huevo batido, mix de verduras.', veg:true },
 
   // Tallarines
   { id:'tll-veg',      cat:'tallarin', name:'Tallarín Saltado de Vegetales',  price:19500, desc:'Fideos, soja, canela china, jengibre, mix de verduras.', veg:true },
   { id:'tll-pollo',    cat:'tallarin', name:'Tallarín Saltado de Pollo',      price:22000, desc:'Fideos, soja, canela china, jengibre, mix de verduras, pollo.' },
-  { id:'tll-lomo',     cat:'tallarin', name:'Tallarín Saltado de Lomo Veteado',price:24500,desc:'Fideos, soja, canela china, jengibre, mix de verduras, carne.' },
+  { id:'tll-lomo',     cat:'tallarin', name:'Tallarín Saltado de Lomo Veteado',price:27000,desc:'Fideos, soja, canela china, jengibre, mix de verduras, carne.' },
   { id:'tll-cerdo',    cat:'tallarin', name:'Tallarín Saltado de Cerdo Asado',price:22000, desc:'Fideos, soja, canela china, jengibre, mix de verduras, cerdo.' },
   { id:'tll-mar',      cat:'tallarin', name:'Tallarín Saltado de Mariscos',   price:29500, desc:'Fideos, soja, canela china, jengibre, verduras, mix de mariscos, ostión.' },
-  { id:'tll-esp',      cat:'tallarin', name:'Tallarín Saltado Especial',      price:26500, desc:'Fideos, soja, canela china, jengibre, verduras, pollo, cerdo, camarones.' },
+  { id:'tll-esp',      cat:'tallarin', name:'Tallarín Saltado Especial',      price:28500, desc:'Fideos, soja, canela china, jengibre, verduras, pollo, cerdo, camarones.' },
 
   // Platos Chinos
   { id:'chn-tam',      cat:'chinos', name:'Cerdo con Tamarindo',     price:23000, desc:'Cerdo asado, salsa de tamarindo, mix de verduras, guarnición de arroz blanco.' },
-  { id:'chn-gru',      cat:'chinos', name:'Cerdo Gruyoc',            price:26000, desc:'Dados de cerdo crocante, salsa agridulce, ananá, durazno, mix de verduras, arroz.' },
+  { id:'chn-gru',      cat:'chinos', name:'Cerdo Gruyoc',            price:27500, desc:'Dados de cerdo crocante, salsa agridulce, ananá, durazno, mix de verduras, arroz.' },
   { id:'chn-kum',      cat:'chinos', name:'Pollo Kum Pao',           price:23000, desc:'Pollo, maní, vinagre de arroz, salsa de soja, mix de verduras, guarnición arroz.', tag:'Picante' },
   { id:'chn-tk',       cat:'chinos', name:'Pollo Tipa Kay',          price:25000, desc:'Pollo semi crocante, mix de vegetales y salsa agridulce, guarnición de arroz.' },
   { id:'chn-tkl',      cat:'chinos', name:'Tipa Kay de Langostinos', price:29000, desc:'Langostinos semi crocantes, mix de vegetales y salsa agridulce, arroz.' },
-  { id:'chn-mong',     cat:'chinos', name:'Carne Mongoliana',        price:25000, desc:'Carne, ají picante, mix de vegetales, soja, miel, vino blanco, sésamo, arroz.', tag:'Picante' },
+  { id:'chn-mong',     cat:'chinos', name:'Carne Mongoliana',        price:28000, desc:'Carne, ají picante, mix de vegetales, soja, miel, vino blanco, sésamo, arroz.', tag:'Picante' },
   { id:'chn-alm',      cat:'chinos', name:'Pollo con Almendras',     price:24000, desc:'Pollo, almendras, vino blanco, miel, soja, mix de verduras, arroz.' },
 
   // Dumplings
