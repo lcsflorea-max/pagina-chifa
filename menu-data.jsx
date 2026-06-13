@@ -30,7 +30,7 @@ const MENU_ITEMS = [
   // Tallarines
   { id:'tll-veg',      cat:'tallarin', name:'Tallarín Saltado de Vegetales',  price:19500, desc:'Fideos, soja, canela china, jengibre, mix de verduras.', veg:true },
   { id:'tll-pollo',    cat:'tallarin', name:'Tallarín Saltado de Pollo',      price:22000, desc:'Fideos, soja, canela china, jengibre, mix de verduras, pollo.' },
-  { id:'tll-lomo',     cat:'tallarin', name:'Tallarín Saltado de Lomo Veteado',price:27000,desc:'Fideos, soja, canela china, jengibre, mix de verduras, carne.' },
+  { id:'tll-lomo',     cat:'tallarin', name:'Tallarín Saltado de Lomo Veteado',price:26000,desc:'Fideos, soja, canela china, jengibre, mix de verduras, carne.' },
   { id:'tll-cerdo',    cat:'tallarin', name:'Tallarín Saltado de Cerdo Asado',price:22000, desc:'Fideos, soja, canela china, jengibre, mix de verduras, cerdo.' },
   { id:'tll-mar',      cat:'tallarin', name:'Tallarín Saltado de Mariscos',   price:29500, desc:'Fideos, soja, canela china, jengibre, verduras, mix de mariscos, ostión.' },
   { id:'tll-esp',      cat:'tallarin', name:'Tallarín Saltado Especial',      price:28500, desc:'Fideos, soja, canela china, jengibre, verduras, pollo, cerdo, camarones.' },
@@ -41,7 +41,7 @@ const MENU_ITEMS = [
   { id:'chn-kum',      cat:'chinos', name:'Pollo Kum Pao',           price:23000, desc:'Pollo, maní, vinagre de arroz, salsa de soja, mix de verduras, guarnición arroz.', tag:'Picante' },
   { id:'chn-tk',       cat:'chinos', name:'Pollo Tipa Kay',          price:25000, desc:'Pollo semi crocante, mix de vegetales y salsa agridulce, guarnición de arroz.' },
   { id:'chn-tkl',      cat:'chinos', name:'Tipa Kay de Langostinos', price:29000, desc:'Langostinos semi crocantes, mix de vegetales y salsa agridulce, arroz.' },
-  { id:'chn-mong',     cat:'chinos', name:'Carne Mongoliana',        price:28000, desc:'Carne, ají picante, mix de vegetales, soja, miel, vino blanco, sésamo, arroz.', tag:'Picante' },
+  { id:'chn-mong',     cat:'chinos', name:'Carne Mongoliana',        price:27000, desc:'Carne, ají picante, mix de vegetales, soja, miel, vino blanco, sésamo, arroz.', tag:'Picante' },
   { id:'chn-alm',      cat:'chinos', name:'Pollo con Almendras',     price:24000, desc:'Pollo, almendras, vino blanco, miel, soja, mix de verduras, arroz.' },
 
   // Dumplings
@@ -57,7 +57,7 @@ const MENU_ITEMS = [
   { id:'per-caul',     cat:'peruanos', name:'Causa de Langostino',       price:19500, desc:'Puré de papa con limón, ají amarillo, tomate, palta, huevo, langostino, mayonesa.' },
   { id:'per-rab',      cat:'peruanos', name:'Chicharrón de Calamar (Rabas)', price:26500, desc:'Aros de calamar crocante.' },
   { id:'per-jal',      cat:'peruanos', name:'Jalea de Mariscos',         price:30000, desc:'Mix de mariscos crocantes, papas fritas y sarsa criolla.' },
-  { id:'per-lom',      cat:'peruanos', name:'Lomo Saltado',              price:24500, desc:'Ojo de bife en cubos, cebolla morada, pimientos, tomate, papas fritas, soja, arroz blanco.', tag:'Clásico' },
+  { id:'per-lom',      cat:'peruanos', name:'Lomo Saltado',              price:27000, desc:'Lomo vetado en cubos, cebolla morada, pimientos, tomate, papas fritas, soja, arroz blanco.', tag:'Clásico' },
   { id:'per-aji',      cat:'peruanos', name:'Aji de Gallina',            price:20500, desc:'Pollo deshilachado, crema de ají amarillo, leche, queso, maní, papa, huevo, arroz blanco.' },
   { id:'per-arv',      cat:'peruanos', name:'Arroz Verde con Mariscos',  price:27000, desc:'Arroz cocido con un fondo de cilantro y espinaca acompañado de mix de mariscos.' },
   { id:'per-tag',      cat:'peruanos', name:'Tagliatelis con Lomo',      price:27500, desc:'Tagliatelis en salsa huancaina con dados de lomo veteado, cebolla morada, tomate, cilantro, soja.' },
