@@ -1,8 +1,3 @@
-// ──────────────────────────────────────────────────────────────────
-// Chifa Wok — Menú completo
-// Extraído de "CARTA CHIFA 2025"
-// ──────────────────────────────────────────────────────────────────
-
 const MENU_CATEGORIES = [
   { id: 'chaufa',    label: 'Chaufa',         glyph: '飯', tagline: 'Arroz salteado al wok' },
   { id: 'tallarin',  label: 'Tallarín',       glyph: '麺', tagline: 'Fideos al wok' },
@@ -68,8 +63,10 @@ const MENU_ITEMS = [
   { id:'nv-kal',       cat:'nuevos', name:'Kalu Wantan',        price:27000, desc:'Dados de pollo, cerdo y langostinos salteados con vegetales, ananá, huevos de codorniz, salsa agridulce y wantanes.', tag:'Nuevo' },
 
   // Postres
-  { id:'pos-sus',      cat:'postres', name:'Suspiro Limeño', price:8000, desc:'Postre tradicional peruano: manjar blanco y merengue al oporto.' },
-  { id:'pos-3l',       cat:'postres', name:'Postre 3 Leches', price:8000, desc:'Bizcocho empapado en tres leches con crema y canela.' },
+  { id:'pos-sus',      cat:'postres', name:'Suspiro Limeño', price:9500, desc:'Postre tradicional peruano: manjar blanco y merengue al oporto.' },
+  { id:'pos-3l',       cat:'postres', name:'Postre 3 Leches', price:9500, desc:'Bizcocho empapado en tres leches con crema y canela.' },
+  { id:'pos-flan',     cat:'postres', name:'Flan Casero', price:8500, desc:'Flan casero con caramelo.' },
+  { id:'pos-mousse',   cat:'postres', name:'Mousse de Chocolate', price:9000, desc:'Mousse de chocolate.' },
 
   // Tragos
   { id:'trg-ps',       cat:'tragos', name:'Pisco Sour',       price:9000, desc:'Pisco, jugo de limón, jarabe de goma y clara.', tag:'Insignia' },
@@ -89,10 +86,6 @@ const MENU_ITEMS = [
   { id:'vin-flo-cha',  cat:'vinos', name:'Finca La Florencia — Chardonnay', price:17000, desc:'Familia Cassone.' },
   { id:'vin-op-rose',  cat:'vinos', name:'Obra Prima Rosé',           price:17000, desc:'Familia Cassone.' },
   { id:'vin-op-res',   cat:'vinos', name:'Obra Prima Reserva Malbec', price:19000, desc:'Familia Cassone.' },
-  { id:'vin-ac-mal',   cat:'vinos', name:'Acordeón Malbec',           price:14000, desc:'Finca Ferrer.' },
-  { id:'vin-ac-cab',   cat:'vinos', name:'Acordeón Cabernet Sauvignon', price:14000, desc:'Finca Ferrer.' },
-  { id:'vin-ac-ros',   cat:'vinos', name:'Acordeón Rosado',           price:14000, desc:'Finca Ferrer.' },
-  { id:'vin-ac-cha',   cat:'vinos', name:'Acordeón Chardonnay',       price:14000, desc:'Finca Ferrer.' },
 
   // Bebidas
   { id:'beb-aq15',     cat:'bebidas', name:'Agua sin gas / con gas 1500cc', price:6500 },
