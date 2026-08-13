@@ -43,8 +43,7 @@ const MENU_ITEMS = [
   { id:'ent-rol',      cat:'entrantes', name:'Rollitos Primavera x4', price:9500, desc:'Masa rellena de mix de vegetales, jengibre y salsa de soja.', veg:true },
   { id:'ent-wan',      cat:'entrantes', name:'Wantanes de Pollo x4',  price:9500, desc:'Masa rellena de pollo, jengibre, verdeo y salsa de soja.' },
   { id:'ent-gyo',      cat:'entrantes', name:'Gyosas x4',             price:9500, desc:'Masa frita rellena de cerdo sazonado.' },
-  { id:'nv-siu',       cat:'entrantes', name:'Siu Kao x4',         price:9500,  desc:'Pasta rellena y frita con langostinos, brotes de soja, mix de vegetales y salsa hoisin.' },
-
+  
   // Platos Peruanos
   { id:'per-cev',      cat:'peruanos', name:'Ceviche de Pescado Blanco', price:21000, desc:'Pescado blanco, limón, cebolla morada, ajo, jengibre, camote, choclo, canchita, ají (opcional).' },
   { id:'per-cev-esp',  cat:'peruanos', name:'Ceviche Especial',          price:25000, desc:'Pescado blanco, salmón rosado, camarones, mango, limón, cebolla morada, ajo, jengibre, camote, choclo.' },
@@ -59,7 +58,6 @@ const MENU_ITEMS = [
 
   // Platos Nuevos
   { id:'nv-chi',       cat:'nuevos', name:'Chijaukay',          price:26000, desc:'Pollo semi crocante con salsa de ostión, canela china, sésamo, soja y guarnición de arroz salteado con verduras y pachikay.', tag:'Nuevo' },
-  { id:'nv-hoi',       cat:'nuevos', name:'Pollo en Salsa Hoisin', price:26000, desc:'Dados de pollo salteado con jengibre, ajo, acusay, pimientos, cebolla morada, champiñones, salsa hoisin y arroz blanco.', tag:'Nuevo' },
   { id:'nv-kal',       cat:'nuevos', name:'Kalu Wantan',        price:27000, desc:'Dados de pollo, cerdo y langostinos salteados con vegetales, ananá, huevos de codorniz, salsa agridulce y wantanes.', tag:'Nuevo' },
 
   // Postres
@@ -70,7 +68,7 @@ const MENU_ITEMS = [
 
   // Tragos
   { id:'trg-ps',       cat:'tragos', name:'Pisco Sour',       price:9000, desc:'Pisco, jugo de limón, jarabe de goma y clara.', tag:'Insignia' },
-  { id:'trg-mp',       cat:'tragos', name:'Machu Pichu',      price:9000, desc:'Pisco, menta, granadina y jugo de naranja.' },
+  
   { id:'trg-ap',       cat:'tragos', name:'Aperol Spritz',    price:7000, desc:'Aperol, champagne, rodaja de naranja y soda.' },
   { id:'trg-fc',       cat:'tragos', name:'Fernet con Coca',  price:7000, desc:'Clásico argentino.' },
 
